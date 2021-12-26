@@ -1,0 +1,1 @@
+import{R as e,a as t}from"./clientRender.07108da0.js";const a=()=>e.createElement(t,{to:"/"});var o=Object.freeze({__proto__:null,[Symbol.toStringTag]:"Module",default:a});const r={};r.main=o;export{r as default};
