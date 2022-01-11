@@ -1,4 +1,4 @@
-var d=Object.defineProperty,g=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var p=(t,a,u)=>a in t?d(t,a,{enumerable:!0,configurable:!0,writable:!0,value:u}):t[a]=u,s=(t,a)=>{for(var u in a||(a={}))i.call(a,u)&&p(t,u,a[u]);if(n)for(var u of n(a))l.call(a,u)&&p(t,u,a[u]);return t},m=(t,a)=>g(t,h(a));var r=(t,a)=>{var u={};for(var o in t)i.call(t,o)&&a.indexOf(o)<0&&(u[o]=t[o]);if(t!=null&&n)for(var o of n(t))a.indexOf(o)<0&&l.call(t,o)&&(u[o]=t[o]);return u};import{c as e,L as f}from"./clientRender.07108da0.js";const x={},b="wrapper";function c(u){var o=u,{components:t}=o,a=r(o,["components"]);return e(b,m(s(s({},x),a),{components:t,mdxType:"MDXLayout"}),e("h1",null,"Example: develop a component library"),e("p",null,'This is an example of using "Advanced Filesystem Routing" inside a component library project.'),e("p",null,"Suppose you are developing a React component library. Your project have file structure like this:"),e("pre",null,e("code",{parentName:"pre",className:"language-text"},`src
+var d=Object.defineProperty,g=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var p=(t,a,u)=>a in t?d(t,a,{enumerable:!0,configurable:!0,writable:!0,value:u}):t[a]=u,s=(t,a)=>{for(var u in a||(a={}))i.call(a,u)&&p(t,u,a[u]);if(n)for(var u of n(a))l.call(a,u)&&p(t,u,a[u]);return t},m=(t,a)=>g(t,h(a));var r=(t,a)=>{var u={};for(var o in t)i.call(t,o)&&a.indexOf(o)<0&&(u[o]=t[o]);if(t!=null&&n)for(var o of n(t))a.indexOf(o)<0&&l.call(t,o)&&(u[o]=t[o]);return u};import{c as e,L as f}from"./clientRender.df7eda7d.js";const x={},b="wrapper";function c(u){var o=u,{components:t}=o,a=r(o,["components"]);return e(b,m(s(s({},x),a),{components:t,mdxType:"MDXLayout"}),e("h1",null,"Example: develop a component library"),e("p",null,'This is an example of using "Advanced Filesystem Routing" inside a component library project.'),e("p",null,"Suppose you are developing a React component library. Your project have file structure like this:"),e("pre",null,e("code",{parentName:"pre",className:"language-text"},`src
 \u251C\u2500\u2500 Button
 \u2502   \u251C\u2500\u2500 demos
 \u2502   \u2502   \u251C\u2500\u2500 demo1.tsx
@@ -22,6 +22,7 @@ import mdx from 'vite-plugin-mdx'
 import pages, { DefaultPageStrategy } from 'vite-plugin-react-pages'
 
 module.exports = {
+  jsx: 'react',
   plugins: [
     reactRefresh(),
     mdx(),
@@ -29,9 +30,8 @@ module.exports = {
       pagesDir: path.join(__dirname, 'pages'),
       pageStrategy: new DefaultPageStrategy({
         extraFindPages: async (pagesDir, helpers) => {
-          const srcPath = path.join(__dirname, 'src')
-
-          if ("production") {
+          const srcPath = path.join(__dirname, '../src')
+          if (String(({}).SHOW_ALL_COMPONENT_DEMOS) === 'true') {
             // show all component demos during dev
             // put them in page \`/components/demos/\${componentName}\`
             helpers.watchFiles(
@@ -77,7 +77,7 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      'my-lib': '/src',
+      'my-lib': path.join(__dirname, '../src'),
     },
   },
 } as UserConfig
@@ -109,5 +109,5 @@ You can initialize this project with command: `,e("inlineCode",{parentName:"p"},
 \u2502   \u251C\u2500\u2500 package.json
 \u2502   \u2514\u2500\u2500 vite.config.ts
 \u2514\u2500\u2500 package.json
-`)),e("p",null,"Checkout the complete example in ",e("a",{parentName:"p",href:"https://github.com/vitejs/vite-plugin-react-pages/blob/master/packages/create-project/template-lib-monorepo/packages/demos/vite.demos.ts"},"the lib-monorepo scaffold"),`.
-You can initialize this project with command: `,e("inlineCode",{parentName:"p"},"npm init vite-pages library-monorepo-demo --template lib-monorepo"),"."))}c.isMDXComponent=!0;var v=Object.freeze({__proto__:null,[Symbol.toStringTag]:"Module",default:c});const C={};C.main=v;export{C as default};
+`)),e("p",null,"Checkout the complete example in ",e("a",{parentName:"p",href:"https://github.com/vitejs/vite-plugin-react-pages/blob/master/packages/create-project/template-lib-monorepo/packages/demos/vite.config.ts"},"the lib-monorepo scaffold"),`.
+You can initialize this project with command: `,e("inlineCode",{parentName:"p"},"npm init vite-pages library-monorepo-demo --template lib-monorepo"),"."))}c.isMDXComponent=!0;var C=Object.freeze({__proto__:null,[Symbol.toStringTag]:"Module",default:c});const v={};v.main=C;export{v as default};
