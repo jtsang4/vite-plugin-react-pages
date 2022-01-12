@@ -1,4 +1,4 @@
-var g=Object.defineProperty,h=Object.defineProperties;var f=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var p=(a,t,n)=>t in a?g(a,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):a[t]=n,i=(a,t)=>{for(var n in t||(t={}))s.call(t,n)&&p(a,n,t[n]);if(r)for(var n of r(t))l.call(t,n)&&p(a,n,t[n]);return a},u=(a,t)=>h(a,f(t));var c=(a,t)=>{var n={};for(var o in a)s.call(a,o)&&t.indexOf(o)<0&&(n[o]=a[o]);if(a!=null&&r)for(var o of r(a))t.indexOf(o)<0&&l.call(a,o)&&(n[o]=a[o]);return n};import{c as e,L as d}from"./clientRender.df7eda7d.js";const y={},b="wrapper";function m(n){var o=n,{components:a}=o,t=c(o,["components"]);return e(b,u(i(i({},y),t),{components:a,mdxType:"MDXLayout"}),e("h1",null,"Official Theme"),e("p",null,e("inlineCode",{parentName:"p"},"vite-pages-theme-doc")," is an official theme of vite-pages. It should satisfy most users' needs. This document site is powered by this theme."),e("h2",null,"How to use"),e("p",null,"You should config the theme in ",e("inlineCode",{parentName:"p"},"_theme.tsx"),":"),e("pre",null,e("code",{parentName:"pre",className:"language-tsx"},`// _theme.tsx
+var g=Object.defineProperty,h=Object.defineProperties;var f=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var l=(t,a,n)=>a in t?g(t,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[a]=n,i=(t,a)=>{for(var n in a||(a={}))s.call(a,n)&&l(t,n,a[n]);if(r)for(var n of r(a))p.call(a,n)&&l(t,n,a[n]);return t},u=(t,a)=>h(t,f(a));var c=(t,a)=>{var n={};for(var o in t)s.call(t,o)&&a.indexOf(o)<0&&(n[o]=t[o]);if(t!=null&&r)for(var o of r(t))a.indexOf(o)<0&&p.call(t,o)&&(n[o]=t[o]);return n};import{c as e,L as d}from"./clientRender.6ddcabdb.js";const y={},b="wrapper";function m(n){var o=n,{components:t}=o,a=c(o,["components"]);return e(b,u(i(i({},y),a),{components:t,mdxType:"MDXLayout"}),e("h1",null,"Official Theme"),e("p",null,e("inlineCode",{parentName:"p"},"vite-pages-theme-doc")," is an official theme of vite-pages. It should satisfy most users' needs. This document site is powered by this theme."),e("h2",null,"How to use"),e("p",null,"You should config the theme in ",e("inlineCode",{parentName:"p"},"_theme.tsx"),":"),e("pre",null,e("code",{parentName:"pre",className:"language-tsx"},`// _theme.tsx
 import React from 'react'
 import { createTheme } from 'vite-pages-theme-doc'
 
@@ -20,7 +20,7 @@ export default createTheme({
 /references/apis/api2
 /references/error-codes/code1
 /references/error-codes/code2
-`)),e("p",null,"First, it will first divide them into ",e("inlineCode",{parentName:"p"},"group"),"s:"),e("pre",null,e("code",{parentName:"pre"},`group /:
+`)),e("p",null,"Firstly, the theme will divide pages into ",e("inlineCode",{parentName:"p"},"group"),"s based on the ",e("strong",{parentName:"p"},"first segment")," of page path:"),e("pre",null,e("code",{parentName:"pre"},`group /:
   /
   /playground
 
@@ -35,7 +35,15 @@ group references:
   /references/apis/api2
   /references/error-codes/code1
   /references/error-codes/code2
-`)),e("p",null,"The classification of ",e("inlineCode",{parentName:"p"},"group"),"s is based on the ",e("strong",{parentName:"p"},"first segment")," of pages' path. You can also customize it in page static data."),e("p",null,"Then, it will divide them into ",e("inlineCode",{parentName:"p"},"subGroup"),"s:"),e("pre",null,e("code",{parentName:"pre"},`group /:
+`)),e("p",null,"You can customize ",e("inlineCode",{parentName:"p"},"group")," in page static data. For example:"),e("pre",null,e("code",{parentName:"pre"},`Put this at top of a markdown page:
+---
+group: references
+---
+Or put this at top of a tsx/jsx page:
+/**
+ * @group references
+ */
+`)),e("p",null,"Then, the theme will divide pages into ",e("inlineCode",{parentName:"p"},"subGroup"),"s based on the ",e("strong",{parentName:"p"},"second segment")," of pages' path:"),e("pre",null,e("code",{parentName:"pre"},`group /:
   subGroup /:
     /
     /playground
@@ -55,7 +63,7 @@ group references:
   subGroup error-codes:
     /references/error-codes/code1
     /references/error-codes/code2
-`)),e("p",null,"The classification of ",e("inlineCode",{parentName:"p"},"subGroup"),"s is based on the ",e("strong",{parentName:"p"},"second segment")," of pages' path. You can also customize it in page static data."),e("p",null,"What is the meanings of ",e("inlineCode",{parentName:"p"},"group")," and ",e("inlineCode",{parentName:"p"},"subGroup"),"?"),e("ul",null,e("li",{parentName:"ul"},e("inlineCode",{parentName:"li"},"group")," is isolation boundary: we only display ",e("strong",{parentName:"li"},"one")," ",e("inlineCode",{parentName:"li"},"group")," at a time. If a user open a page in group ",e("inlineCode",{parentName:"li"},"references"),", he/she will only see menu items from that group. He/She will not see menu items from ",e("inlineCode",{parentName:"li"},"components")," group."),e("li",{parentName:"ul"},e("inlineCode",{parentName:"li"},"subGroup")," is how we actual grouping menu items in sider. All pages with same ",e("inlineCode",{parentName:"li"},"subGroup")," will be displayed together. This document site is an example.")),e("h2",null,"Theme configs"),e("p",null,"The ",e("inlineCode",{parentName:"p"},"createTheme")," exported by ",e("inlineCode",{parentName:"p"},"vite-pages-theme-doc")," accepts ",e("a",{parentName:"p",href:"https://github.com/vitejs/vite-plugin-react-pages/blob/master/packages/theme-doc/src/index.tsx"},"these options"),":"),e("pre",null,e("code",{parentName:"pre",className:"language-ts"},`interface ThemeConfig {
+`)),e("p",null,e("inlineCode",{parentName:"p"},"subGroup")," can also be customized in page static data, just like ",e("inlineCode",{parentName:"p"},"group")," does."),e("p",null,"What is the meanings of ",e("inlineCode",{parentName:"p"},"group")," and ",e("inlineCode",{parentName:"p"},"subGroup"),"?"),e("ul",null,e("li",{parentName:"ul"},e("inlineCode",{parentName:"li"},"group")," is a site isolation boundary: we only display ",e("strong",{parentName:"li"},"one")," ",e("inlineCode",{parentName:"li"},"group")," at a time. If a user open a page in group ",e("inlineCode",{parentName:"li"},"references"),", he/she will ",e("strong",{parentName:"li"},"only see side menu items from that group"),". He/She will not see menu items from ",e("inlineCode",{parentName:"li"},"components")," group."),e("li",{parentName:"ul"},e("inlineCode",{parentName:"li"},"subGroup")," decide how the theme sort side menu items. All side menu items with same ",e("inlineCode",{parentName:"li"},"subGroup")," will be rendered adjacently. This document site is an example.")),e("h2",null,"Theme configs"),e("p",null,"The ",e("inlineCode",{parentName:"p"},"createTheme")," exported by ",e("inlineCode",{parentName:"p"},"vite-pages-theme-doc")," accepts ",e("a",{parentName:"p",href:"https://github.com/vitejs/vite-plugin-react-pages/blob/master/packages/theme-doc/src/index.tsx"},"these options"),":"),e("pre",null,e("code",{parentName:"pre",className:"language-ts"},`interface ThemeConfig {
   /**
    * Logo at top bar
    */
@@ -79,6 +87,11 @@ group references:
    * Extra area at top bar.
    */
   TopBarExtra?: React.ComponentType
+  /**
+   * view to be rendered when app in 404 state
+   * (url not matching any page)
+   */
+  Component404?: React.ComponentType
 }
 
 interface SideNavsContext {
