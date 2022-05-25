@@ -1,13 +1,13 @@
 import type { UserConfig } from 'vite'
 import * as path from 'path'
-import reactRefresh from '@vitejs/plugin-react-refresh'
+import react from '@vitejs/plugin-react'
 import mdx from 'vite-plugin-mdx'
 import pages, { DefaultPageStrategy } from 'vite-plugin-react-pages'
 
 module.exports = {
   jsx: 'react',
   plugins: [
-    reactRefresh(),
+    react(),
     mdx(),
     pages({
       pagesDir: path.join(__dirname, 'pages'),
@@ -28,8 +28,7 @@ module.exports = {
               runtimeDataPaths[demoPath] = absolute
               const staticData = api.getStaticData(pageId)
               staticData[demoPath] = await helpers.extractStaticData(file)
-              if (!staticData.title)
-                staticData.title = `${componentName} Title`
+              if (!staticData.title) staticData.title = `${componentName} Title`
             }
           )
 
