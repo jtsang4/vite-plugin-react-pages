@@ -23,7 +23,7 @@ const components = {
   Demo,
   TsInfo,
   FileText,
-  a: (props: LinkProps) => {
+  a: (props: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
     const { href, ...rest } = props
     if (href?.startsWith('/')) {
       return <Link {...rest} to={href} />

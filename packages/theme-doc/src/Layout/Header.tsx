@@ -16,7 +16,7 @@ import { LayoutContext } from './ctx'
 
 const renderMenu = renderMenuHelper(true)
 
-interface Props {}
+interface Props { }
 
 const AppHeader: React.FC<Props> = (props) => {
   const themeConfig = useContext(themeConfigCtx)
@@ -50,15 +50,15 @@ const AppHeader: React.FC<Props> = (props) => {
 
     function getActiveKeyIfMatch(item: MenuConfig) {
       if ('path' in item) {
-        const matcher = item.activeIfMatch ?? {
+        const matcher = item.activeIfMatch ? {
           path: item.path,
-          exact: true,
-        }
-        const match = matchPath(location.pathname, matcher)
+          end: true,
+        } : { path: item.path }
+        const match = matchPath(matcher, location.pathname)
         if (match) return item.path
       } else if ('subMenu' in item) {
         if (item.activeIfMatch) {
-          const match = matchPath(location.pathname, item.activeIfMatch)
+          const match = matchPath({ path: item.activeIfMatch as string }, location.pathname)
           if (match) return item.subMenu
         }
         const match = item.children.some(getActiveKeyIfMatch)

@@ -72,49 +72,45 @@ export type SideMenuData = { readonly text: string; readonly path: string }
 
 export type TopNavData =
   | {
-      readonly text: string
-      /**
-       * The url.
-       * @example 'https://www.google.com/'
-       */
-      readonly href: string
-    }
+    readonly text: string
+    /**
+     * The url.
+     * @example 'https://www.google.com/'
+     */
+    readonly href: string
+  }
   | {
-      readonly text: string
-      /**
-       * The path in the current webapp.
-       * @example '/posts/hello-world'
-       */
-      readonly path: string
-    }
+    readonly text: string
+    /**
+     * The path in the current webapp.
+     * @example '/posts/hello-world'
+     */
+    readonly path: string
+  }
   | {
-      /**
-       * The label of the subnav
-       */
-      readonly subNav: string
-      readonly children: ReadonlyArray<TopNavData>
-    }
+    /**
+     * The label of the subnav
+     */
+    readonly subNav: string
+    readonly children: ReadonlyArray<TopNavData>
+  }
   | {
-      /**
-       * The label of the nav group
-       */
-      readonly group: string
-      readonly children: ReadonlyArray<TopNavData>
-    }
+    /**
+     * The label of the nav group
+     */
+    readonly group: string
+    readonly children: ReadonlyArray<TopNavData>
+  }
 
 export function renderNav(navs: ReadonlyArray<TopNavData>) {
+  const location = useLocation()
   return navs.map((item, idx) => {
     if ('path' in item) {
+      const to = location.search ? `${item.path}${location.search}` : item.text
       return (
         <Nav.Item key={item.path}>
           <Link
-            to={(location) => {
-              if (location.search) {
-                // preserve query
-                return `${item.path}${location.search}`
-              }
-              return item.path
-            }}
+            to={to}
           >
             {item.text}
           </Link>

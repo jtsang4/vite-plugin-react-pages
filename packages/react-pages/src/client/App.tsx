@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { usePagePaths } from './state'
 import PageLoader from './PageLoader'
 
@@ -15,23 +15,18 @@ const App = () => {
     .map((path) => (
       // avoid re-mount layout component
       // https://github.com/ReactTraining/react-router/issues/3928#issuecomment-284152397
-      <Route key="same" exact path={path}>
-        <PageLoader routePath={path} />
-      </Route>
+      <Route key="same" path={path} element={<PageLoader />} />
     ))
 
   return (
-    <Switch>
+    <Routes>
       {pageRoutes}
       <Route
         key="same"
         path="*"
-        render={({ match }) => {
-          // 404
-          return <PageLoader routePath={match.url} />
-        }}
+        element={<PageLoader />}
       />
-    </Switch>
+    </Routes>
   )
 }
 

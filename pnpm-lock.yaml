@@ -39,12 +39,11 @@ importers:
   doc-site:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       gh-pages: ^3.1.0
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-doc: workspace:*
@@ -53,10 +52,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       gh-pages: 3.2.3
       serve: 12.0.1
@@ -70,9 +68,11 @@ importers:
       '@vitejs/plugin-react': ^1.3.2
       fs-extra: ^9.1.0
       minimist: ^1.2.5
+      react-router-dom: ^6.3.0
     dependencies:
       fs-extra: 9.1.0
       minimist: 1.2.5
+      react-router-dom: 6.3.0
     devDependencies:
       '@vitejs/plugin-react': 1.3.2
 
@@ -82,11 +82,10 @@ importers:
       '@mdx-js/react': ^1.6.22
       '@types/node': ^14.14.37
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-doc: ^3.1.4
@@ -95,13 +94,12 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22_react@17.0.2
       '@types/node': 14.18.3
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -115,11 +113,10 @@ importers:
       '@mdx-js/react': ^1.6.22
       '@types/node': ^14.14.37
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-doc: ^3.1.4
@@ -128,13 +125,12 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22_react@17.0.2
       '@types/node': 14.18.3
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -145,6 +141,9 @@ importers:
   packages/create-project/template-lib-monorepo:
     specifiers:
       '@vitejs/plugin-react': ^1.3.2
+      react-router-dom: ^6.3.0
+    dependencies:
+      react-router-dom: 6.3.0
     devDependencies:
       '@vitejs/plugin-react': 1.3.2
 
@@ -153,7 +152,10 @@ importers:
       '@types/react': ^17.0.3
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       typescript: ^4.3.2
+    dependencies:
+      react-router-dom: 6.3.0_react@17.0.2
     devDependencies:
       '@types/react': 17.0.38
       '@vitejs/plugin-react': 1.3.2
@@ -165,7 +167,10 @@ importers:
       '@types/react': ^17.0.3
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       typescript: ^4.3.2
+    dependencies:
+      react-router-dom: 6.3.0_react@17.0.2
     devDependencies:
       '@types/react': 17.0.38
       '@vitejs/plugin-react': 1.3.2
@@ -178,14 +183,13 @@ importers:
       '@mdx-js/react': ^1.6.22
       '@types/node': ^14.14.37
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       globby: ^11.0.2
       my-button: '*'
       my-card: '*'
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-doc: ^3.0.0
@@ -194,13 +198,12 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22_react@17.0.2
       '@types/node': 14.18.3
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       globby: 11.0.4
       my-button: link:../button
@@ -215,6 +218,9 @@ importers:
     specifiers:
       '@vitejs/plugin-react': ^1.3.2
       css-color-names: ^1.0.1
+      react-router-dom: ^6.3.0
+    dependencies:
+      react-router-dom: 6.3.0
     devDependencies:
       '@vitejs/plugin-react': 1.3.2
       css-color-names: 1.0.1
@@ -223,11 +229,10 @@ importers:
     specifiers:
       '@mdx-js/mdx': ^1.6.22
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-plugin-mdx: ^3.5.6
@@ -235,11 +240,10 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@mdx-js/mdx': 1.6.22
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -249,11 +253,10 @@ importers:
   packages/playground/custom-find-pages:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-basic: workspace:*
@@ -262,10 +265,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -276,11 +278,10 @@ importers:
   packages/playground/custom-find-pages2:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-basic: workspace:*
@@ -289,10 +290,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -303,6 +303,9 @@ importers:
   packages/playground/lib-monorepo:
     specifiers:
       '@vitejs/plugin-react': ^1.3.2
+      react-router-dom: ^6.3.0
+    dependencies:
+      react-router-dom: 6.3.0
     devDependencies:
       '@vitejs/plugin-react': 1.3.2
 
@@ -311,7 +314,10 @@ importers:
       '@types/react': ^17.0.3
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       typescript: ^4.3.2
+    dependencies:
+      react-router-dom: 6.3.0_react@17.0.2
     devDependencies:
       '@types/react': 17.0.38
       '@vitejs/plugin-react': 1.3.2
@@ -323,7 +329,10 @@ importers:
       '@types/react': ^17.0.3
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       typescript: ^4.3.2
+    dependencies:
+      react-router-dom: 6.3.0_react@17.0.2
     devDependencies:
       '@types/react': 17.0.38
       '@vitejs/plugin-react': 1.3.2
@@ -333,14 +342,13 @@ importers:
   packages/playground/lib-monorepo/packages/demos:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       globby: ^11.0.2
       playground-button: '*'
       playground-card: '*'
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-basic: workspace:*
@@ -349,10 +357,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       globby: 11.0.4
       playground-button: link:../button
@@ -366,11 +373,10 @@ importers:
   packages/playground/use-theme:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-basic: workspace:*
@@ -379,10 +385,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -393,11 +398,10 @@ importers:
   packages/playground/use-theme-doc:
     specifiers:
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       react: ^17.0.1
       react-dom: ^17.0.1
-      react-router-dom: ^5.2.0
+      react-router-dom: ^6.3.0
       serve: ^12.0.1
       vite: ^2.5.6
       vite-pages-theme-doc: workspace:*
@@ -406,10 +410,9 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 5.3.0_react@17.0.2
+      react-router-dom: 6.3.0_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       serve: 12.0.1
       vite: 2.7.7
@@ -427,7 +430,6 @@ importers:
       '@types/minimist': ^1.2.0
       '@types/react': ^17.0.3
       '@types/react-dom': ^17.0.2
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       chalk: ^4.1.0
       chokidar: ^3.5.1
@@ -442,6 +444,7 @@ importers:
       mini-debounce: ^1.0.8
       minimist: ^1.2.5
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       remark-frontmatter: ^2.0.0
       rollup: ^2.56.3
       rollup-plugin-postcss: ^4.0.0
@@ -466,6 +469,7 @@ importers:
       jotai: 0.15.5_react@17.0.2
       mini-debounce: 1.0.8
       minimist: 1.2.5
+      react-router-dom: 6.3.0_react@17.0.2
       remark-frontmatter: 2.0.0
       rollup: 2.62.0
       rollup-plugin-postcss: 4.0.2
@@ -479,7 +483,6 @@ importers:
       '@types/minimist': 1.2.2
       '@types/react': 17.0.38
       '@types/react-dom': 17.0.11
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       concurrently: 6.5.1
       react: 17.0.2
@@ -498,7 +501,6 @@ importers:
       '@rollup/plugin-typescript': ^8.2.0
       '@types/mdx-js__react': ^1.5.3
       '@types/react': ^17.0.3
-      '@types/react-router-dom': ^5.1.7
       '@vitejs/plugin-react': ^1.3.2
       babel-plugin-import: ^1.13.3
       babel-runtime: ^6.26.0
@@ -509,6 +511,7 @@ importers:
       globby: ^11.0.2
       prism-react-renderer: ^1.2.0
       react: ^17.0.1
+      react-router-dom: ^6.3.0
       rollup: ^2.56.3
       rollup-plugin-postcss: ^4.0.0
       sass: ^1.32.8
@@ -516,6 +519,7 @@ importers:
       vite-plugin-react-pages: workspace:*
     dependencies:
       github-markdown-css: 4.0.0
+      react-router-dom: 6.3.0_react@17.0.2
     devDependencies:
       '@alifd/next': 1.25.10_react@17.0.2
       '@babel/preset-react': 7.16.5
@@ -527,7 +531,6 @@ importers:
       '@rollup/plugin-typescript': 8.3.0_a3vziw5m3yl6hbbzhdt7edzqyi
       '@types/mdx-js__react': 1.5.5
       '@types/react': 17.0.38
-      '@types/react-router-dom': 5.3.2
       '@vitejs/plugin-react': 1.3.2
       babel-plugin-import: 1.13.3
       babel-runtime: 6.26.0
@@ -564,10 +567,13 @@ importers:
       globby: ^11.0.2
       less: ^4.1.1
       prism-react-renderer: ^1.2.0
+      react-router-dom: ^6.3.0
       rollup: ^2.56.3
       rollup-plugin-postcss: ^4.0.0
       typescript: ^4.3.2
       vite-plugin-react-pages: workspace:*
+    dependencies:
+      react-router-dom: 6.3.0
     devDependencies:
       '@babel/preset-env': 7.16.5
       '@babel/preset-react': 7.16.5
@@ -2863,10 +2869,6 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/history/4.7.9:
-    resolution: {integrity: sha512-MUc6zSmU3tEVnkQ78q0peeEjKWPUADMlC/t++2bI8WnAG2tvYRPIgHG8lWkXwqc8MsUF6Z2MOf+Mh5sazOmhiQ==}
-    dev: true
-
   /@types/istanbul-lib-coverage/2.0.4:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==}
     dev: true
@@ -2933,21 +2935,6 @@ packages:
   /@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
     dependencies:
-      '@types/react': 17.0.38
-    dev: true
-
-  /@types/react-router-dom/5.3.2:
-    resolution: {integrity: sha512-ELEYRUie2czuJzaZ5+ziIp9Hhw+juEw8b7C11YNA4QdLCVbQ3qLi2l4aq8XnlqM7V31LZX8dxUuFUCrzHm6sqQ==}
-    dependencies:
-      '@types/history': 4.7.9
-      '@types/react': 17.0.38
-      '@types/react-router': 5.1.17
-    dev: true
-
-  /@types/react-router/5.1.17:
-    resolution: {integrity: sha512-RNSXOyb3VyRs/EOGmjBhhGKTbnN6fHWvy5FNLzWfOWOGjgVUKqJZXfpKzLmgoU8h6Hj8mpALj/mbXQASOb92wQ==}
-    dependencies:
-      '@types/history': 4.7.9
       '@types/react': 17.0.38
     dev: true
 
@@ -5230,21 +5217,17 @@ packages:
       space-separated-tokens: 1.1.5
     dev: true
 
-  /history/4.10.1:
-    resolution: {integrity: sha512-36nwAD620w12kuzPAsyINPWJqlNbij+hpK1k9XRloDtym8mxzGYl2c17LnV6IAGB2Dmg4tEa7G7DlawS0+qjew==}
+  /history/5.3.0:
+    resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}
     dependencies:
       '@babel/runtime': 7.16.5
-      loose-envify: 1.4.0
-      resolve-pathname: 3.0.0
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
-      value-equal: 1.0.1
     dev: false
 
   /hoist-non-react-statics/3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
     dependencies:
       react-is: 16.13.1
+    dev: true
 
   /hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
@@ -5609,10 +5592,6 @@ packages:
     dependencies:
       is-docker: 2.2.1
     dev: true
-
-  /isarray/0.0.1:
-    resolution: {integrity: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=}
-    dev: false
 
   /isarray/1.0.0:
     resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
@@ -6561,18 +6540,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /mini-create-react-context/0.4.1_2d37ibx6onn5gxj7obk37edtfe:
-    resolution: {integrity: sha512-YWCYEmd5CQeHGSAKrYvXgmzzkrvssZcuuQDDeqkT+PziKGMgE+0MCCtcKbROzocGBG1meBLl2FotlRwf4gAzbQ==}
-    peerDependencies:
-      prop-types: ^15.0.0
-      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-    dependencies:
-      '@babel/runtime': 7.16.5
-      prop-types: 15.8.0
-      react: 17.0.2
-      tiny-warning: 1.0.3
-    dev: false
-
   /mini-debounce/1.0.8:
     resolution: {integrity: sha512-EqUsV34zuw2N9UHjRl1bwaDiLe1d/P8AemSp/EbDjOsZ7gB+z+7F9wcJWqfU3QpPnHD1oKGe2n6Fw90QsLkBkA==}
     dev: false
@@ -6966,12 +6933,6 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
-
-  /path-to-regexp/1.8.0:
-    resolution: {integrity: sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==}
-    dependencies:
-      isarray: 0.0.1
-    dev: false
 
   /path-to-regexp/2.2.1:
     resolution: {integrity: sha512-gu9bD6Ta5bwGrrU8muHzVOBFFREpp2iRkVfhBJahwJ6p6Xw20SjT0MxLnwkjOibQmGSYhiUnf2FLe7k+jcFmGQ==}
@@ -7426,6 +7387,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+    dev: true
 
   /proper-lockfile/4.1.2:
     resolution: {integrity: sha512-TjNPblN4BwAWMXU8s9AEz4JmQxnD1NNL7bNOY/AKUzyamc379FWASUhc/K1pL2noVb+XmZKLL68cjzLsiOAMaA==}
@@ -7936,6 +7898,7 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: true
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
@@ -7950,37 +7913,54 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/5.3.0_react@17.0.2:
-    resolution: {integrity: sha512-ObVBLjUZsphUUMVycibxgMdh5jJ1e3o+KpAZBVeHcNQZ4W+uUGGWsokurzlF4YOldQYRQL4y6yFRWM4m3svmuQ==}
+  /react-router-dom/6.3.0:
+    resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
-      react: '>=15'
+      react: '>=16.8'
+      react-dom: '>=16.8'
     dependencies:
-      '@babel/runtime': 7.16.5
-      history: 4.10.1
-      loose-envify: 1.4.0
-      prop-types: 15.8.0
-      react: 17.0.2
-      react-router: 5.2.1_react@17.0.2
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
+      history: 5.3.0
+      react-router: 6.3.0
     dev: false
 
-  /react-router/5.2.1_react@17.0.2:
-    resolution: {integrity: sha512-lIboRiOtDLFdg1VTemMwud9vRVuOCZmUIT/7lUoZiSpPODiiH1UQlfXy+vPLC/7IWdFYnhRwAyNqA/+I7wnvKQ==}
+  /react-router-dom/6.3.0_react@17.0.2:
+    resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
-      react: '>=15'
+      react: '>=16.8'
+      react-dom: '>=16.8'
     dependencies:
-      '@babel/runtime': 7.16.5
-      history: 4.10.1
-      hoist-non-react-statics: 3.3.2
-      loose-envify: 1.4.0
-      mini-create-react-context: 0.4.1_2d37ibx6onn5gxj7obk37edtfe
-      path-to-regexp: 1.8.0
-      prop-types: 15.8.0
+      history: 5.3.0
       react: 17.0.2
-      react-is: 16.13.1
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
+      react-router: 6.3.0_react@17.0.2
+    dev: false
+
+  /react-router-dom/6.3.0_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      history: 5.3.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-router: 6.3.0_react@17.0.2
+    dev: false
+
+  /react-router/6.3.0:
+    resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      history: 5.3.0
+    dev: false
+
+  /react-router/6.3.0_react@17.0.2:
+    resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      history: 5.3.0
+      react: 17.0.2
     dev: false
 
   /react-transition-group/2.9.0_react@17.0.2:
@@ -8207,10 +8187,6 @@ packages:
   /resolve-from/5.0.0:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
-
-  /resolve-pathname/3.0.0:
-    resolution: {integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==}
-    dev: false
 
   /resolve-url/0.2.1:
     resolution: {integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=}
@@ -8867,10 +8843,6 @@ packages:
     resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
     dev: false
 
-  /tiny-warning/1.0.3:
-    resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
-    dev: false
-
   /tmpl/1.0.5:
     resolution: {integrity: sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==}
     dev: true
@@ -9199,10 +9171,6 @@ packages:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
     dev: true
-
-  /value-equal/1.0.1:
-    resolution: {integrity: sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==}
-    dev: false
 
   /vary/1.1.2:
     resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=}
