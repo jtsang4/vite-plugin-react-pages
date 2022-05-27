@@ -61,12 +61,12 @@ export default function pluginFactory(
   const tsInfoModuleManager = new TsInfoModuleManager()
 
   return {
-    name: 'vite-plugin-react-pages',
+    name: '@jtsang/vite-plugin-react-pages',
     enforce: 'pre',
     config: () => ({
       optimizeDeps: {
         include: ['react', 'react-dom', 'react-router-dom', '@mdx-js/react'],
-        exclude: ['vite-plugin-react-pages'],
+        exclude: ['@jtsang/vite-plugin-react-pages'],
       },
       define: {
         __HASH_ROUTER__: !!useHashRouter,

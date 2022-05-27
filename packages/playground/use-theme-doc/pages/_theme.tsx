@@ -2,8 +2,8 @@ import React from 'react'
 import {
   createTheme,
   defaultSideNavs,
-} from 'vite-pages-theme-doc/src/index.dev'
-// from 'vite-pages-theme-doc'
+} from '@jtsang/vite-pages-theme-doc/src/index.dev'
+// from '@jtsang/vite-pages-theme-doc'
 import { Button } from 'antd'
 import Component404 from './404'
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import type { ThemeProps } from 'vite-plugin-react-pages/clientTypes'
-import { useStaticData } from 'vite-plugin-react-pages/client'
+import type { ThemeProps } from '@jtsang/vite-plugin-react-pages/clientTypes'
+import { useStaticData } from '@jtsang/vite-plugin-react-pages/client'
 import { useLocation } from 'react-router-dom'
 
 import AppLayout, { MDX } from './Layout'

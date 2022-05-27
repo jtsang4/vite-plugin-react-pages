@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import type { Theme, PagesStaticData } from 'vite-plugin-react-pages'
-import { useStaticData } from 'vite-plugin-react-pages/client'
+import type { Theme, PagesStaticData } from '@jtsang/vite-plugin-react-pages'
+import { useStaticData } from '@jtsang/vite-plugin-react-pages/client'
 import Layout from './layout'
 import type { SideMenuData, TopNavData } from './layout'
 import MD from './layout/MDX'

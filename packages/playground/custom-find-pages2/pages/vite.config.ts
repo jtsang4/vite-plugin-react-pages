@@ -7,7 +7,7 @@ import pages, {
   FileHandler,
   File,
   extractStaticData,
-} from 'vite-plugin-react-pages'
+} from '@jtsang/vite-plugin-react-pages'
 
 export default defineConfig({
   plugins: [

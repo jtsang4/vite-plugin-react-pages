@@ -1,6 +1,6 @@
 import React, { useContext, useMemo, useState } from 'react'
 import { ConfigProvider, Grid } from 'antd'
-import { useStaticData } from 'vite-plugin-react-pages/client'
+import { useStaticData } from '@jtsang/vite-plugin-react-pages/client'
 import 'github-markdown-css/github-markdown.css'
 
 const { useBreakpoint } = Grid
@@ -17,7 +17,7 @@ ConfigProvider.config({
   prefixCls: 'vp-antd',
 })
 
-interface Props {}
+interface Props { }
 
 const AppLayout: React.FC<Props> = ({ children }) => {
   const { sideNavs } = useContext(themeConfigCtx)

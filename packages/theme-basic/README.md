@@ -11,7 +11,7 @@ You should config the theme in `_theme.tsx`:
 ```tsx
 // _theme.tsx
 import React from 'react'
-import { createTheme } from 'vite-pages-theme-basic'
+import { createTheme } from '@jtsang/vite-pages-theme-basic'
 
 export default createTheme({
   topNavs: [

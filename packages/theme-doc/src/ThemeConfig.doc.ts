@@ -2,7 +2,7 @@ import type { MenuConfig } from './Layout/renderMenu'
 import type {
   LoadState,
   PagesLoaded,
-} from 'vite-plugin-react-pages/clientTypes'
+} from '@jtsang/vite-plugin-react-pages/clientTypes'
 
 export interface ThemeConfig {
   /**

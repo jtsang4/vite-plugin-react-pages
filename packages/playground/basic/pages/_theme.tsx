@@ -1,6 +1,6 @@
 import React from 'react'
-import type { Theme } from 'vite-plugin-react-pages'
-import { useStaticData } from 'vite-plugin-react-pages/client'
+import type { Theme } from '@jtsang/vite-plugin-react-pages'
+import { useStaticData } from '@jtsang/vite-plugin-react-pages/client'
 
 const theme: Theme = ({ loadedData, loadState }) => {
   const staticData = useStaticData()

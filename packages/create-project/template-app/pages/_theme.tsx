@@ -1,5 +1,5 @@
 import React from 'react'
-import { createTheme, defaultSideNavs } from 'vite-pages-theme-doc'
+import { createTheme, defaultSideNavs } from '@jtsang/vite-pages-theme-doc'
 
 export default createTheme({
   logo: <div style={{ fontSize: '20px' }}>📘 Vite Pages</div>,

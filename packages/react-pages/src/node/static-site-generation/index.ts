@@ -47,9 +47,9 @@ export async function ssrBuild(
       external: ['react', 'react-router-dom', 'react-dom', 'react-dom/server'],
       noExternal: [
         // TODO: remove this
-        'vite-pages-theme-basic',
-        'vite-plugin-react-pages',
-        'vite-plugin-react-pages/client',
+        '@jtsang/vite-pages-theme-basic',
+        '@jtsang/vite-plugin-react-pages',
+        '@jtsang/vite-plugin-react-pages/client',
       ],
     },
   })

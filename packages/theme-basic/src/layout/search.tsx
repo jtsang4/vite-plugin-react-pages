@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useEffect } from 'react'
 import { Search, Select } from '@alifd/next'
 import s from './style.module.css'
-import type { PagesStaticData } from 'vite-plugin-react-pages'
+import type { PagesStaticData } from '@jtsang/vite-plugin-react-pages'
 import { useNavigate } from 'react-router-dom'
 
 interface Props {

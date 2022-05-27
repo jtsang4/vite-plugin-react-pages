@@ -23,7 +23,7 @@ export default {
     'react',
     'react-dom',
     'react-router-dom',
-    'vite-plugin-react-pages',
+    '@jtsang/vite-plugin-react-pages',
     '@mdx-js/react',
   ],
   plugins: [

@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { Menu, Dropdown } from 'antd'
 import { useLocation, Link, matchPath } from 'react-router-dom'
-import { useStaticData } from 'vite-plugin-react-pages/client'
+import { useStaticData } from '@jtsang/vite-plugin-react-pages/client'
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,

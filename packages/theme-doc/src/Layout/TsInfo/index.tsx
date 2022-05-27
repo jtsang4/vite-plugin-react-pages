@@ -1,5 +1,5 @@
 import React from 'react'
-import type { TsInterfaceInfo } from 'vite-plugin-react-pages/clientTypes'
+import type { TsInterfaceInfo } from '@jtsang/vite-plugin-react-pages/clientTypes'
 
 import s from "./index.module.css";
 

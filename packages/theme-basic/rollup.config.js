@@ -18,8 +18,8 @@ export default {
     'react-dom',
     'react-router-dom',
     '@mdx-js/react',
-    'vite-plugin-react-pages',
-    'vite-plugin-react-pages/client',
+    '@jtsang/vite-plugin-react-pages',
+    '@jtsang/vite-plugin-react-pages/client',
     // /babel-runtime/
   ],
   plugins: [
