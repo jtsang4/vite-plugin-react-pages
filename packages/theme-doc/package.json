@@ -1,5 +1,5 @@
 {
-  "name": "vite-pages-theme-doc",
+  "name": "@jtsang/vite-pages-theme-doc",
   "version": "3.1.8",
   "description": "A document theme for vite-plugin-react-pages.",
   "main": "dist-cjs/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "vite-pages-theme-basic",
+  "name": "@jtsang/vite-pages-theme-basic",
   "version": "3.1.2",
   "main": "lib/index.js",
   "module": "dist/index.js",
