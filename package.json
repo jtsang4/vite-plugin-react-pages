@@ -9,7 +9,7 @@
     "ver:p": "npm run ver -- patch",
     "ver:mi": "npm run ver -- minor",
     "ver:major": "npm run ver -- major",
-    "pub": "pnpm -r publish --filter create-vite-pages --filter vite-plugin-react-pages --filter vite-pages-theme-basic --filter vite-pages-theme-doc",
+    "pub": "pnpm -r --filter create-vite-pages --filter vite-plugin-react-pages --filter vite-pages-theme-basic --filter vite-pages-theme-doc publish --access=public",
     "update-deps": "pnpm -r update -i -L",
     "update-local-deps": "pnpm update -r vite-plugin-mdx vite-plugin-react-pages vite-pages-theme-basic --workspace",
     "test-serve": "jest",
