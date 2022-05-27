@@ -18,19 +18,19 @@
     "postinstall": "node ./scripts/linkBins.js"
   },
   "devDependencies": {
+    "@jtsang/vite-pages-theme-basic": "workspace:*",
+    "@jtsang/vite-plugin-react-pages": "workspace:*",
     "@pnpm/link-bins": "^6.0.8",
     "@pnpm/logger": "^4.0.0",
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.34",
     "cross-env": "^7.0.3",
     "jest": "^26.6.3",
-    "playwright-chromium": "~1.9.2",
+    "playwright-chromium": "^1.22.2",
     "sirv": "^1.0.10",
     "slash": "^3.0.0",
     "ts-jest": "^26.4.4",
-    "typescript": "^4.3.2",
-    "@jtsang/vite-pages-theme-basic": "workspace:*",
-    "@jtsang/vite-plugin-react-pages": "workspace:*"
+    "typescript": "^4.3.2"
   },
   "pnpm": {
     "overrides": {
