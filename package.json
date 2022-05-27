@@ -20,6 +20,7 @@
   "devDependencies": {
     "@jtsang/vite-pages-theme-basic": "workspace:*",
     "@jtsang/vite-plugin-react-pages": "workspace:*",
+    "@jtsang/vite-plugin-style-import": "^2.0.0",
     "@pnpm/link-bins": "^6.0.8",
     "@pnpm/logger": "^4.0.0",
     "@types/jest": "^26.0.19",
